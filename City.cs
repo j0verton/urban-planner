@@ -16,7 +16,7 @@ namespace Planner
 
         public void AddABuilding(Building building)
         {
-            this.Buildings.Add(building);
+            Buildings.Add(building);
         }
 
         public City(string name, string mayor)
@@ -30,11 +30,11 @@ namespace Planner
         {
             Console.WriteLine("");
             Console.WriteLine("");
-            Console.WriteLine($"Welcome to {this._name}");
+            Console.WriteLine($"Welcome to {_name}");
             Console.WriteLine($"Enjoy the Premium Architecture");
             Console.WriteLine("---------------");
             Console.WriteLine("");
-            foreach (Building building in this.Buildings)
+            foreach (Building building in Buildings)
             {
                 building.PrintBuilding();
             }

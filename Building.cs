@@ -27,12 +27,12 @@ namespace Planner
 
         public void PrintBuilding()
         {
-            Console.WriteLine(this._address);
+            Console.WriteLine(_address);
             Console.WriteLine("---------------");
-            Console.WriteLine($"Designed by {this._designer}");
-            Console.WriteLine($"Constructed on {this._dateConstructed}");
-            Console.WriteLine($"Owned by {this._owner}");
-            Console.WriteLine($"{this.Volume} cubic meters of space");
+            Console.WriteLine($"Designed by {_designer}");
+            Console.WriteLine($"Constructed on {_dateConstructed}");
+            Console.WriteLine($"Owned by {_owner}");
+            Console.WriteLine($"{Volume} cubic meters of space");
             Console.WriteLine("");
 
         }
